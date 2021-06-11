@@ -18,6 +18,27 @@ header p {
     font-size: 65px;
     font-weight: 700;
 }
+
+.section {
+    background: linear-gradient(to right, #46c2ff 0%, #9e00ff 100%);;
+}
+
+.contacts{
+    width: 90%;
+    margin-left: 5%;
+}
+.contacts-title {
+    font-weight: bolder;
+    font-size: 35px;
+    color: #1a1824;
+}
+
+.contacts-text {
+    color: #1a1824;
+    margin-bottom: 100px;
+}
+
+
 .footer {
     display: flex;
     flex-flow: row wrap;
