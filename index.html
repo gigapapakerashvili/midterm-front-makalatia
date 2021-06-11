@@ -5,9 +5,25 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<nav class="nav">
+    <a href="#" class="nav-brand helvetica-uppercase">
+        <img src="images/logo.svg" width="120">
+    </a>
+    <a href="#" onclick="myFunction()" class="hamburger"><i class="fa fa-bars" style="color: #46c2ff"></i></a>
+    <div class="nav-right" id="nav-right">
+        <a href="#" class="nav-item-link active helvetica-uppercase">Home</a>
+        <a href="#" class="nav-item-link helvetica-uppercase">Events</a>
+        <a href="#" class="nav-item-link helvetica-uppercase">About Us</a>
+        <a href="#" class="nav-item-link helvetica-uppercase">Contact</a>
+        <button class="nav-item-sign-up helvetica-uppercase">Sign Up</button>
+    </div>
+
+</nav>
 
 <section class="section1">
     <div class="form">
@@ -87,6 +103,8 @@
     </ul>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

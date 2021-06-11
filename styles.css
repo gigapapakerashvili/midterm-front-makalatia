@@ -10,14 +10,200 @@ body {
     display: grid;
     font-size: 14px;
 }
-header p {
-    padding: 50px;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 65px;
-    font-weight: 700;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navbar*/
+
+.nav {
+    overflow: hidden;
+    background-color: #1a1824;
 }
+
+.hamburger {
+    display: none;
+}
+
+.nav-brand {
+    color: #46c2ff;
+    float: left;
+    text-align: center;
+    padding: 14px 5%;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav .nav-right .nav-item-link {
+    float: left;
+    color: white;
+    opacity: 50%;
+    text-align: center;
+    padding: 28px 32px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+.nav .nav-right .nav-item-sign-up {
+    float: left;
+    opacity: 50%;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-right: 120px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: solid 1px #46c2ff;
+    border-radius: 5px;
+    color: #46c2ff;
+}
+
+.nav a .image-rounded {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.nav .nav-item-link:active, .active {
+    opacity: 100%!important;
+}
+
+.nav-right {
+    float: right;
+}
+
+@media (max-width:950px){
+
+    .nav {
+        overflow: hidden;
+        background-color: #1a1824;
+    }
+
+    .hamburger {
+        display: inherit;
+        float: right;
+        padding: 10px 16px;
+    }
+
+
+    .nav-brand {
+        color: #46c2ff;
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: bold;
+        /*width: 100%;*/
+    }
+
+    .nav .nav-right .nav-item-link {
+        float: left;
+        color: white;
+        opacity: 50%;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: bold;
+        width: 100%;
+    }
+    .nav .nav-right .nav-item-sign-up {
+        width: 96%;
+    }
+
+    .nav a .image-rounded {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav .nav-item-link:active, .active {
+        opacity: 100%!important;
+    }
+
+    .nav-right {
+        float: left;
+        width: 100%;
+        display: none;
+    }
+
+
+}
+
+@media (max-width:790px){
+    .nav .nav-right .nav-item-sign-up {
+        width: 95%;
+    }
+}
+
+
+@media (max-width:640px){
+    .nav .nav-right .nav-item-sign-up {
+        width: 94%;
+    }
+}
+
+
+@media (max-width:510px){
+    .nav .nav-right .nav-item-sign-up {
+        width: 93%;
+    }
+}
+
+@media (max-width:440px){
+    .nav .nav-right .nav-item-sign-up {
+        width: 92%;
+    }
+}
+
+@media (max-width:390px){
+    .nav .nav-right .nav-item-sign-up {
+        width: 91%;
+    }
+}
+
+
+
+
+
+
+/*end of navbar*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section2 {
     background: linear-gradient(to right, #46c2ff 0%, #9e00ff 100%);
