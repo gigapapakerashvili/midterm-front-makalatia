@@ -19,14 +19,15 @@ header p {
     font-weight: 700;
 }
 
-.section {
-    background: linear-gradient(to right, #46c2ff 0%, #9e00ff 100%);;
+.section2 {
+    background: linear-gradient(to right, #46c2ff 0%, #9e00ff 100%);
 }
 
 .contacts{
     width: 90%;
     margin-left: 5%;
 }
+
 .contacts-title {
     font-weight: bolder;
     font-size: 35px;
@@ -37,6 +38,111 @@ header p {
     color: #1a1824;
     margin-bottom: 100px;
 }
+
+.section1 {
+    background: #1a1824;
+}
+
+.form {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.form-inner {
+    width: 90%;
+    margin: 5%;
+    background-color: #222030;
+    border-radius: 5px;
+}
+
+.form-inner {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.form-title {
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+}
+
+.form-text {
+    padding-left: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.form-input {
+    padding-top: 10%;
+}
+
+.text-input {
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+
+.submit-input {
+    width: 150px;
+    height: 35px;
+    background: linear-gradient(to right, #46c2ff 0%, #9e00ff 100%);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1080px) {
+    .form-inner {
+        display: block;
+    }
+    .form-input {
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .text-input {
+        width: 200px;
+        height: 35px;
+    }
+
+    .submit-input {
+        width: 90px;
+        height: 35px;
+
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .text-input {
+        width: 170px;
+        height: 35px;
+    }
+
+    .submit-input {
+        width: 80px;
+        height: 35px;
+
+    }
+}
+
+@media only screen and (max-width: 334px) {
+    .text-input {
+        width: 150px;
+        height: 35px;
+    }
+
+}
+
+
 
 
 .footer {
